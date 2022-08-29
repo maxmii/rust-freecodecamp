@@ -1,0 +1,20 @@
+[package]
+name = "fcc-rust-in-replit"
+version = "0.1.0"
+authors = ["Shaun Hamilton <shauhami020@gmail.com>"]
+edition = "2018"
+include = ["src/**/*", "Cargo.toml"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "fcc"
+path = "./src/main.rs"
+
+[[bin]]
+name = "calculator"
+path = "./calculator/src/main.rs"
+
+[[bin]]
+name = "combiner"
+path = "./combiner/src/main.rs"
